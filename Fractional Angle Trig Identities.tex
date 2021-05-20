@@ -1,0 +1,20 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,relsize}
+\title{Fractional-Angle Trigonometric Formulae}
+\author{Garry Vong}
+\date{}
+
+\begin{document}
+\maketitle
+	\begin{align*}
+	 \sin\frac{\theta}{2} &= (-1)^{\textstyle \left \lfloor \theta / 2\pi \right\rfloor} \sqrt{\frac{1- \cos\theta}{2}}.\\	
+	 \cos\frac{\theta}{2} &= (-1)^{\textstyle \left \lfloor (\pi -\theta) / 2\pi\right\rfloor} \sqrt{\frac{1+\cos\theta}{2}}.\\
+	 \tan\frac{\theta}{2} &= \csc\theta - \cot\theta.	\\
+     \sin\frac{\theta}{3} &= \cos\left(\frac{\tan^{-1} \left({\cot\theta}\right) +\pi - \left \lfloor {\theta} /{\pi}\right\rfloor \pi}{3}\right).\\
+     \cos\frac{\theta}{3} &= \cos\left(\frac{\tan^{-1} \left({\tan\theta}\right) +\left \lfloor (2\theta+\pi) /{2\pi}\right\rfloor \pi}{3}\right).\\
+     \tan\frac{\theta}{3} &= \tan\theta +2\cos\left(\frac{\tan^{-1} \left({\cot\theta}\right) +4\pi - \left \lfloor \theta /{\pi}\right\rfloor \pi}{3}\right)\sec\theta.\\
+     \sin\frac{\theta}{4} &= \frac{(-1)^{\textstyle \left \lfloor (4\pi-\theta) / 4\pi \right \rfloor }}{2} {\sqrt{2 +(-1)^{\textstyle\left \lfloor (3\pi-\theta) /{2\pi}  \right \rfloor } \sqrt{2+2\cos\theta}}}.\\	\\
+     \cos\frac{\theta}{4} &= \frac{(-1)^{\textstyle \left \lfloor (\theta + 2\pi) / 4\pi \right \rfloor }}{2} {\sqrt{2 +(-1)^{\textstyle\left \lfloor (\theta + \pi) /{2\pi}  \right \rfloor } \sqrt{2+2\cos\theta}}}.\\ 
+	 \end{align*}
+Note: Algebraic expressions for fractional angles with denominators greater than 4 cannot be found due to the Abel-Ruffini theorem.
+\end{document}
